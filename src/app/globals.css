@@ -22,13 +22,14 @@
 }
 
 body {
- background-color: bisque;
- font-family: "Montserrat";
-
+color: #000;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+.custom{
+  /* flex-direction: row-reverse; */
 }
