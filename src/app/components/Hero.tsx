@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section>
       <h1>With pizza, everything is better.</h1>
-      <p></p>
+      <p>Checking</p>
     </section>
   );
 };
