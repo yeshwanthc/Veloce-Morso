@@ -30,6 +30,7 @@ color: #000;
     text-wrap: balance;
   }
 }
-.custom{
-  /* flex-direction: row-reverse; */
+main.main-container{
+  @apply block md:grid;
+  grid-template-columns: .4fr .6fr;
 }

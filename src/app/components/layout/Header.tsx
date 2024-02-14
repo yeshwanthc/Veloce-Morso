@@ -3,7 +3,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="text-black p-4 w-full flex justify-between items-center bg-[#f1f1f1]">
+    <header className="bg-[#f1f1f1]  overflow-x-hidden">
+      <div className="max-w-[1500px] mx-auto text-black p-4 flex justify-between items-center ">
       <Link href="/">
         <img
           src="/images/VeloceMorso.png"
@@ -34,6 +35,8 @@ const Header = () => {
           Login
         </Link>
       </nav>
+      </div>
+     
     </header>
   );
 };
