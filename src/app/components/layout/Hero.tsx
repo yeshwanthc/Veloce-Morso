@@ -9,8 +9,7 @@ const Hero = () => {
         <div>
           <h1 className="text-6xl font-semibold">
             With&nbsp;<span className="text-red1">Pizza</span>
-            <br /> everything is
-             better
+            <br /> everything is better
           </h1>
           <p className="mt-4 text-lg">
             Pizza makes everything better Lorem ipsum dolor sit amet consectetur
@@ -21,10 +20,10 @@ const Hero = () => {
         </div>
 
         <div className="mt-4 flex gap-4 w-full">
-          <button className="rounded-[4px] bg-red1 text-white py-2 px-3 flex items-center">
+          <button className="rounded-[4px] bg-red1 text-white py-2 px-3 flex items-center hover:bg-red-600 transition-transform duration-500">
             Order Now <Right />
           </button>
-          <button className="rounded-[4px] bg-[#f1f1f1] text-black py-2 px-3 flex items-center">
+          <button className="rounded-[4px] bg-[#f1f1f1] text-black py-2 px-3 flex items-center hover:bg-[#d7d5d5] transition-transform duration-500">
             Know More
             <Right />
           </button>
