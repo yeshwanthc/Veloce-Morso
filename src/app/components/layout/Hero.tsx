@@ -7,10 +7,7 @@ const Hero = () => {
     <main className="main-container w-full p-4 h-[100%] max-w-[1500px] mx-auto overflow-x-hidden">
       <div className="px-2 mt-5 py-12">
         <div>
-          <h1 className="text-6xl font-semibold">
-            With&nbsp;<span className="text-red1">Pizza</span>
-            <br /> everything is better
-          </h1>
+         
           <p className="mt-4 text-lg">
             Pizza makes everything better Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Veniam architecto voluptatibus, suscipit
